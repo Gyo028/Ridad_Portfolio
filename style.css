@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #061222;
+  color: whitesmoke;
 }
 
 .header {
@@ -11,13 +11,42 @@ body {
 
 }
 
-.profile {
+.insta {
     width: 10rem;
+    height: 10rem;
+    padding: 10.5px;
     border-radius: 50%;
+    background: conic-gradient(
+        #f58529,
+        #feda77,
+        #dd2a7b,
+        #8134af,
+        #f58529
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto
 }
 
+.blk {
+    width: 10rem;
+    height: 10rem;
+    padding: 5px;
+    border-radius: 50%;
+    background: black;
+}
+
+.profile-pic {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 .highlight {
-    color: #0077cc;
+    color: #447794;
 }
 
 .aboutme {
@@ -26,7 +55,7 @@ body {
 }
 
 .section {
-  background-color: white;
+  background-color: #2D5B75;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -36,13 +65,15 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
+
 }
 
 th, td {
-    border: 1px solid #ccc;
+    border: 1px solid whitesmoke;
     padding: 10px;
     text-align: center;
     justify-content: center;
+    color: whitesmoke;
 }
 
 th {
@@ -51,7 +82,7 @@ th {
 }
 
 a {
-  color: #0077cc;
+  color: #4FD3FF;
   text-decoration: none;
 }
 
